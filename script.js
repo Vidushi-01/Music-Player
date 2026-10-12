@@ -18,55 +18,55 @@ const songs = [
         title: "Saaun Di Jhadi",
         artist: "Babbu Mann",
         file: "Saaun Di Jhadi - Babbu Maan.mp3",
-        cover: "images/image.png"
+        cover: "image.png"
     },
     {
         title: "Kabja",
         artist: "Babbu Mann",
         file: "Kabza - Babbu Maan.mp3",
-        cover: "images/image copy.png"
+       cover: "image copy.png"
     },
     {
         title: "Dak Bangla",
         artist: "Lakwinder Lucky",
         file: "Daak Bangla - Lakhwinder Lucky.mp3",
-        cover: "images/download (1) copy.png"
+        cover: "download (1) copy.png"
     },
     {
         title: "Jatta Ka Chora",
         artist: "Mika Singh",
         file: "Jaatta Ka Chhora - Mika Singh.mp3",
-        cover: "images/download (2) copy.png"
+        cover: "download (2) copy.png"
     },
     {
         title: "Tera Pyar Shabbo",
         artist: "Dhakkad Choora",
         file: "Tera Pyar Sabbo - Dhakad Chhora (pagalall.com).mp3",
-        cover: "images/shabbo copy.png"
+        cover: "shabbo copy.png"
     },
     {
         title: "Shoot Ka Order",
         artist: "Jass Manak",
         file: "Shoot Da Order Shooter.mp3",
-        cover: "images/shoot da order copy.png"
+        cover: "shoot da order copy.png"
     },
     {
         title: "Chaska",
         artist: "Yo Yo Honey Singh",
         file: "Chaska - Yo Yo Honey Singh.mp3",
-        cover: "images/download (3) copy.png"
+        cover: "download (3) copy.png"
     },
     {
         title: "Perfect",
         artist: "Ed Sheeran",
         file: "perfect.mp3",
-        cover: "images/download (5) copy.png"
+        cover: "download (5) copy.png"
     },
     {
         title: "Kharch Karod",
         artist: "Laal Rang",
         file: "Kharch Karod _Slow_ - Laal Rang copy.mp3",
-        cover: "images/download (4) copy.png"
+        cover: "download (4) copy.png"
     }
 ];
 
