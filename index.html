@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Neon Music Player UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="player">
+
+    <div class="side-volume">
+        <span class="vol-icon">🔊</span>
+        <input type="range" id="volume" min="0" max="100" value="70">
+    </div>
+
+    <div class="disk-container">
+        <div class="glow"></div>
+
+        <div class="disk" id="disk">
+            <img src="music.png" class="cover" id="cover">
+        </div>
+    </div>
+
+    <h1 id="title">Saaun Di Jhadi</h1>
+    <h3 id="artist">Babbu Mann</h3>
+
+    <audio id="audio" src="Saaun Di Jhadi - Babbu Maan.mp3"></audio>
+
+    <div class="time">
+        <span id="currentTime">0:00</span>
+        <input type="range" id="progress" value="0">
+        <span id="duration">0:00</span>
+    </div>
+
+    <div class="controls">
+        <button onclick="shuffleSong()" id="shuffleBtn">🔀</button>
+        <button onclick="prevSong()">⏮</button>
+        <button onclick="playPause()" id="playBtn" class="play">▶</button>
+        <button onclick="nextSong()">⏭</button>
+        <button onclick="repeatSong()" id="repeatBtn">🔁</button>
+    </div>
+
+    <div class="search-box">
+        <span>🔍</span>
+        <input type="text" id="search" placeholder="Search Song">
+    </div>
+
+    <div class="playlist">
+        <h2>🎵 Playlist</h2>
+
+        <ul id="songList">
+            <li onclick="loadSong(0)">1. Saaun Di Jhadi - Babbu Mann<span>⋮</span></li>
+            <li onclick="loadSong(1)">2. Kabja - Babbu Mann <span>⋮</span></li>
+            <li onclick="loadSong(2)">3. Dak Bangla - Lakwinder Lucky<span>⋮</span></li>
+            <li onclick="loadSong(3)">4. Jatta Ka Chora - Mika Singh<span>⋮</span></li>
+            <li onclick="loadSong(4)">5. Tera Pyar Shabbo - Dhakkad Choora<span>⋮</span></li>
+            <li onclick="loadSong(5)">6. Shoot Ka Order - Jass Manak<span>⋮</span></li>
+            <li onclick="loadSong(6)">7. Chaska - Yo Yo Honry Singh <span>⋮</span></li>
+            <li onclick="loadSong(7)">8. Perfect - Ed Sheeran <span>⋮</span></li>
+            <li onclick="loadSong(8)">9. Kharch Karod - Laal Rang<span>⋮</span></li>
+        </ul>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
